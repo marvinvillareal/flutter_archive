@@ -18,8 +18,8 @@ A new flutter plugin project.
   s.dependency 'Flutter'
   s.dependency 'ZIPFoundation', '0.9.17'
 
-  s.platform = :ios, '12.0'
-  s.ios.deployment_target = '12.0'
+  s.platform = :ios, '11.0'
+  s.ios.deployment_target = '11.0'
 
   # Flutter.framework does not contain a i386 slice.
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
